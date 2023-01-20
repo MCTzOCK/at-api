@@ -26,7 +26,7 @@ app.get("/:postal", async (req, res) => {
         const cn = obj.Stadt;
     
         res.status(200).json({
-            city: cn
+            city: `${obj.Bundesland}, ${cn}`
         }).end();
     }catch (e) {
         res.status(500).json({error: e}).end();
