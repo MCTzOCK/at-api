@@ -1,21 +1,21 @@
 {
-  "name": "at-postal-api",
+  "name": "at-api",
   "version": "1.0.0",
-  "description": "AT Postal Code API Fetcher",
+  "description": "AT API",
   "main": "src/index.js",
   "scripts": {
     "start": "node ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MCTzOCK/at-postal-api.git"
+    "url": "git+https://github.com/MCTzOCK/at-api.git"
   },
   "author": "Ben Siebert",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/MCTzOCK/at-postal-api/issues"
+    "url": "https://github.com/MCTzOCK/at-api/issues"
   },
-  "homepage": "https://github.com/MCTzOCK/at-postal-api#readme",
+  "homepage": "https://github.com/MCTzOCK/at-api#readme",
   "dependencies": {
     "express": "^4.18.2"
   }

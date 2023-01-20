@@ -10,7 +10,7 @@ const zipCodes = JSON.parse(
 
 const app = express();
 
-app.get("/:postal", async (req, res) => {
+app.get("/zip/:postal", async (req, res) => {
     try {
         const postal = req.params.postal;
     
